@@ -13,3 +13,7 @@
 3.taobaomm.py
 
 对淘宝美眉进行爬取，爬取每个美眉的头像，身份等各种信息，通过这次练习，了解了如何判断文件是否存在os.path.exists，如何创建文件，os.makedirs，如何保存一个图片，其实就是写入二进制文件2333
+
+4.hupubbs.py
+
+对虎扑bbs进行爬取，爬取一个帖子的每一层，不难，主要为了练习requests和beautiful soup，特别是bs4，哇，有了他，仿佛在node爬虫中有了cheerio，摆脱正则的感觉简直要飞了起来
