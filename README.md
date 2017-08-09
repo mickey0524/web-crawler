@@ -17,3 +17,7 @@
 4.hupubbs.py
 
 对虎扑bbs进行爬取，爬取一个帖子的每一层，不难，主要为了练习requests和beautiful soup，特别是bs4，哇，有了他，仿佛在node爬虫中有了cheerio，摆脱正则的感觉简直要飞了起来
+
+5.phantom.js
+
+使用phantom.js愉快的玩帅，前面我们进行爬取的方式都是抓取HTML进行分析，然而有很多JS渲染的网站[允悲]，PhantomJS是一个无界面的,可脚本编程的WebKit浏览器引擎，可以把phantomjs当做一个微型浏览器，通过它，我们可以进行网页截图！！！，这是最大的卖点，现在phantomjs支持从外部引入js文件，可以引入jqeury，然后调用evaluate方法对网页进行分析
