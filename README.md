@@ -27,3 +27,7 @@
 6. selenium.py
 
 看到第五个练习，可能很多同学都会觉得我好好的写着python，突然给我来个js的东东，怎么玩啊，其实phantomjs就是个没有浏览器页面的webkit内核浏览器，我们可以通过phantomjs动态进行页面的操作，从而进行python的爬取，建议调试的时候用Chrome，真实环境用phantomJS即可，需要将phantomjs添加进入环境遍历～
+
+7. pyquery.py
+
+其实在用前面几个工具的时候，我就一直在想，为啥python没有类似cheerio的库，用jQuery的方式操作html可以说是非常愉快了，然后发现了pyquery这个库，真的是非常开心，完全原滋原味的jq语法，让玩前端的人就很舒服
