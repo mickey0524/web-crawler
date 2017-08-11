@@ -31,3 +31,8 @@
 7. pyquery.py
 
 其实在用前面几个工具的时候，我就一直在想，为啥python没有类似cheerio的库，用jQuery的方式操作html可以说是非常愉快了，然后发现了pyquery这个库，真的是非常开心，完全原滋原味的jq语法，让玩前端的人就很舒服
+
+8. pySpider
+
+首先，记录一下，安装出现权限问题的时候，试一试sudo，不行再试试 pip install --user <modulename>
+pyspider适合新手上手，提供webUI操作界面，API简洁，但是不太适合配合框架开发，我下一步要去看看scrapy了，2333
