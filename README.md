@@ -36,3 +36,7 @@
 
 首先，记录一下，安装出现权限问题的时候，试一试sudo，不行再试试 pip install --user <modulename>
 pyspider适合新手上手，提供webUI操作界面，API简洁，但是不太适合配合框架开发，我下一步要去看看scrapy了，2333
+
+9. scrapy
+
+嗯，scrapy，炒鸡好用，自定义性强，用户能够按照自己的需求对框架进行自定义～
