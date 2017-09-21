@@ -34,15 +34,4 @@ class doubanSpider(scrapy.Spider):
       item['movie_pic'] = movie['cover'];
       item['movie_title'] = movie['title'];
       item['movie_score'] = movie['rate'];
-      filename = item['movie_title'].encode('utf-8') + '_' + item['movie_score'].encode('utf-8') + '分.jpg';
-      pic = urllib.urlopen(item['movie_pic']);
-      data = pic.read();
-      try:
-        f = open(filename, 'wb');
-        f.write(data);
-      except IOError, e:
-        if hasattr(e, 'reason'):
-          print '存图片出现问题', e.reason
-      finally:
-        f.close();
       yield item;
