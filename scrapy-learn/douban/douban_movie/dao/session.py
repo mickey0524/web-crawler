@@ -7,7 +7,7 @@ from sqlalchemy.engine import create_engine
 
 douban_movie = scoped_session(sessionmaker())
 
-def config_game_write_session(conf, engine=None):
+def config_douban_movie_session(conf, engine=None):
   if engine is None:
     engine = _create_engine(conf['MYSQL_HOSTS'],
                             conf['MYSQL_USER'],
